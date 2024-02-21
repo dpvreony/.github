@@ -24,6 +24,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^coverlet.*"],
+            "groupName": "all coverlet dependencies",
+            "groupSlug": "all-coverlet",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^Exceptionless.*"],
             "groupName": "all exceptionless dependencies",
             "groupSlug": "all-exceptionless",
