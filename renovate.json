@@ -78,6 +78,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Vetuviem.*"],
+            "groupName": "all vetuviem dependencies",
+            "groupSlug": "all-vetuviem",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^Whipstaff.*"],
             "groupName": "all whipstaff dependencies",
             "groupSlug": "all-whipstaff",
