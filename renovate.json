@@ -60,6 +60,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Dhgms.Nucleotide", "^Dhgms.Nucleotide.*"],
+            "groupName": "all nucleotide dependencies",
+            "groupSlug": "all-nucleotide",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^PInvoke.*"],
             "groupName": "all pinvoke dependencies",
             "groupSlug": "all-pinvoke",
