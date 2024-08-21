@@ -48,6 +48,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Microsoft.NET.Test.*"],
+            "groupName": "all mstest",
+            "groupSlug": "all-mstest",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^NuGet.*"],
             "groupName": "all nuget dependencies",
             "groupSlug": "all-nuget",
@@ -75,6 +81,12 @@
             "matchPackagePatterns": ["^ReactiveUI.*"],
             "groupName": "all reactiveui dependencies",
             "groupSlug": "all-reactiveui",
+            "labels": ["dependencies"]
+        },
+        {
+            "matchPackagePatterns": ["^Microsoft.CodeAnalysis.*"],
+            "groupName": "all rosyln",
+            "groupSlug": "all-rosyln",
             "labels": ["dependencies"]
         },
         {
