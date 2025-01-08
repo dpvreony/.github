@@ -48,6 +48,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Microsoft.Identity.*"],
+            "groupName": "all msidentity",
+            "groupSlug": "all-msidentity",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^Microsoft.NET.Test.*"],
             "groupName": "all mstest",
             "groupSlug": "all-mstest",
