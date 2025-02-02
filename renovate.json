@@ -48,9 +48,15 @@
             "labels": ["dependencies"]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.Identity.*"],
+            "matchPackagePatterns": ["^Microsoft.Identity.*", "System.Identity.*"],
             "groupName": "all msidentity",
             "groupSlug": "all-msidentity",
+            "labels": ["dependencies"]
+        },
+        {
+            "matchPackagePatterns": ["^Microsoft.Data.SqlClient"],
+            "groupName": "mssql client",
+            "groupSlug": "mssql-client",
             "labels": ["dependencies"]
         },
         {
