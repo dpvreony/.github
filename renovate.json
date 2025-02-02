@@ -48,7 +48,7 @@
             "labels": ["dependencies"]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.Identity.*", "System.Identity.*"],
+            "matchPackagePatterns": ["^Microsoft.Identity.*", "System.IdentityModel.*"],
             "groupName": "all msidentity",
             "groupSlug": "all-msidentity",
             "labels": ["dependencies"]
