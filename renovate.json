@@ -78,6 +78,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^NetTestRegimentation", "^NetTestRegimentation.*"],
+            "groupName": "all nettestregimentation dependencies",
+            "groupSlug": "all-nettestregimentation",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^Dhgms.Nucleotide", "^Dhgms.Nucleotide.*"],
             "groupName": "all nucleotide dependencies",
             "groupSlug": "all-nucleotide",
