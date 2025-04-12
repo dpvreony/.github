@@ -9,7 +9,7 @@ on:
         description: 'Name of the solution file WITHOUT the extension. On top of running the build. It is ued to calculate the format of the unit tests, benchmarks and integration tests.'
         
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.repository }}-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
   
 jobs:
