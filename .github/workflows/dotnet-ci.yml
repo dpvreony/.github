@@ -11,7 +11,16 @@ on:
       NUGET_API_KEY:
         required: true
         description: 'API key used to release NUGET packages'
-        
+      SONAR_TOKEN:
+        required: false
+      SONAR_PROJECT_KEY:
+        required: false
+      SONAR_ORGANISATION_KEY:
+        required: false
+      VIRUSTOTAL_API_KEY:
+        required: false
+      CODECOV_TOKEN:
+        required: true
 concurrency:
   group: ${{ github.repository }}-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
