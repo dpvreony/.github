@@ -12,6 +12,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Microsoft.Rest.*"],
+            "groupName": "all autorest dependencies",
+            "groupSlug": "all-autorest",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^AspNetCore.HealthChecks.*"],
             "groupName": "all AspNetCore HealthChecks dependencies",
             "groupSlug": "all-aspnetcore-healthchecks",
