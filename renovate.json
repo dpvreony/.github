@@ -72,6 +72,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Microsoft.Testing.*"],
+            "groupName": "all mtp",
+            "groupSlug": "all-mtp",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^NuGet.*"],
             "groupName": "all nuget dependencies",
             "groupSlug": "all-nuget",
