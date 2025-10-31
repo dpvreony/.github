@@ -54,6 +54,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Microsoft.ApplicationInsights.*"],
+            "groupName": "all appinsights",
+            "groupSlug": "all-appinsights",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^Microsoft.Identity.*", "System.IdentityModel.*"],
             "groupName": "all msidentity",
             "groupSlug": "all-msidentity",
