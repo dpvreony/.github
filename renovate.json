@@ -78,9 +78,21 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Microsoft.Playwright"],
+            "groupName": "all ms playright",
+            "groupSlug": "all-ms-playwright",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^Microsoft.Testing.*"],
             "groupName": "all mtp",
             "groupSlug": "all-mtp",
+            "labels": ["dependencies"]
+        },
+        {
+            "matchPackagePatterns": ["^System.CommandLine", "^System.CommandLine.*"],
+            "groupName": "all system commandline",
+            "groupSlug": "all-system-commandline",
             "labels": ["dependencies"]
         },
         {
