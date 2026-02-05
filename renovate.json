@@ -144,6 +144,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Syntixi", "^Syntixi.*"],
+            "groupName": "all synxtixi dependencies",
+            "groupSlug": "all-synxtixi",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^Vetuviem.*"],
             "groupName": "all vetuviem dependencies",
             "groupSlug": "all-vetuviem",
