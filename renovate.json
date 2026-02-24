@@ -48,6 +48,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^LLamaSharp","^LLamaSharp.*"],
+            "groupName": "all llamasharp dependencies",
+            "groupSlug": "all-llamasharp",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^MediatR","^MediatR.*"],
             "groupName": "all mediatr dependencies",
             "groupSlug": "all-mediatr",
