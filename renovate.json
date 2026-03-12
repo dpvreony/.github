@@ -150,6 +150,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Microsoft.Azure.Functions.*"],
+            "groupName": "all azure functions",
+            "groupSlug": "all-azure-functions",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^Microsoft.SourceLink.*"],
             "groupName": "all sourcelink",
             "groupSlug": "all-sourcelink",
