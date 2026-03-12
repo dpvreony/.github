@@ -4,197 +4,338 @@
         "config:recommended"
     ],
     "assigneesFromCodeOwners": true,
-        "packageRules": [
+    "packageRules": [
         {
-            "matchPackagePatterns": ["^Microsoft.*", "^System.*"],
             "groupName": "all microsoft dependencies",
             "groupSlug": "all-microsoft",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.*/",
+                "/^System.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.Rest.*"],
             "groupName": "all autorest dependencies",
             "groupSlug": "all-autorest",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.Rest.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^AspNetCore.HealthChecks.*"],
             "groupName": "all AspNetCore HealthChecks dependencies",
             "groupSlug": "all-aspnetcore-healthchecks",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^AspNetCore.HealthChecks.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Audit.*"],
             "groupName": "all audit.net dependencies",
             "groupSlug": "all-audit-net",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Audit.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^coverlet.*"],
             "groupName": "all coverlet dependencies",
             "groupSlug": "all-coverlet",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^coverlet.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Exceptionless.*"],
             "groupName": "all exceptionless dependencies",
             "groupSlug": "all-exceptionless",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Exceptionless.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Foundatio.*"],
             "groupName": "all foundatio dependencies",
             "groupSlug": "all-foundatio",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Foundatio.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^LLamaSharp","^LLamaSharp.*"],
             "groupName": "all llamasharp dependencies",
             "groupSlug": "all-llamasharp",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^LLamaSharp/",
+                "/^LLamaSharp.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^MediatR","^MediatR.*"],
             "groupName": "all mediatr dependencies",
             "groupSlug": "all-mediatr",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^MediatR/",
+                "/^MediatR.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.ApplicationInsights.*"],
             "groupName": "all appinsights",
             "groupSlug": "all-appinsights",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.ApplicationInsights.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.Identity.*", "System.IdentityModel.*"],
             "groupName": "all msidentity",
             "groupSlug": "all-msidentity",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.Identity.*/",
+                "/System.IdentityModel.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.Data.SqlClient"],
             "groupName": "mssql client",
             "groupSlug": "mssql-client",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.Data.SqlClient/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.NET.Test.*"],
             "groupName": "all mstest",
             "groupSlug": "all-mstest",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.NET.Test.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.Playwright"],
             "groupName": "all ms playright",
             "groupSlug": "all-ms-playwright",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.Playwright/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.Testing.*"],
             "groupName": "all mtp",
             "groupSlug": "all-mtp",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.Testing.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^System.CommandLine", "^System.CommandLine.*"],
             "groupName": "all system commandline",
             "groupSlug": "all-system-commandline",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^System.CommandLine/",
+                "/^System.CommandLine.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^NuGet.*"],
             "groupName": "all nuget dependencies",
             "groupSlug": "all-nuget",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^NuGet.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.Reactive.*", "^System.Reactive", "^System.Reactive.*"],
             "groupName": "all reactive extensions",
             "groupSlug": "all-rx",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.Reactive.*/",
+                "/^System.Reactive/",
+                "/^System.Reactive.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^NetTestRegimentation", "^NetTestRegimentation.*"],
             "groupName": "all nettestregimentation dependencies",
             "groupSlug": "all-nettestregimentation",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^NetTestRegimentation/",
+                "/^NetTestRegimentation.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Dhgms.Nucleotide", "^Dhgms.Nucleotide.*"],
             "groupName": "all nucleotide dependencies",
             "groupSlug": "all-nucleotide",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Dhgms.Nucleotide/",
+                "/^Dhgms.Nucleotide.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^PInvoke.*"],
             "groupName": "all pinvoke dependencies",
             "groupSlug": "all-pinvoke",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^PInvoke.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^ReactiveUI.*"],
             "groupName": "all reactiveui dependencies",
             "groupSlug": "all-reactiveui",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^ReactiveUI.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.CodeAnalysis.*", "^Microsoft.Net.Compilers.Toolset"],
             "groupName": "all rosyln",
             "groupSlug": "all-rosyln",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.CodeAnalysis.*/",
+                "/^Microsoft.Net.Compilers.Toolset/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.TeamFoundation.*", "^Microsoft.VisualStudio.Services.*"],
             "groupName": "all azure devops",
             "groupSlug": "all-azure-devops",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.TeamFoundation.*/",
+                "/^Microsoft.VisualStudio.Services.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.Azure.Functions.*"],
             "groupName": "all azure functions",
             "groupSlug": "all-azure-functions",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.Azure.Functions.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Microsoft.SourceLink.*"],
             "groupName": "all sourcelink",
             "groupSlug": "all-sourcelink",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.SourceLink.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^TestableIO.System.IO.Abstractions*"],
             "groupName": "all testable systemio dependencies",
             "groupSlug": "all-testable-systemio",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^TestableIO.System.IO.Abstractions*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Syntixi", "^Syntixi.*"],
             "groupName": "all synxtixi dependencies",
             "groupSlug": "all-synxtixi",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Syntixi/",
+                "/^Syntixi.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Vetuviem.*"],
             "groupName": "all vetuviem dependencies",
             "groupSlug": "all-vetuviem",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Vetuviem.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Whipstaff.*"],
             "groupName": "all whipstaff dependencies",
             "groupSlug": "all-whipstaff",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Whipstaff.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^Xamarin.*"],
             "groupName": "all xamarin dependencies",
             "groupSlug": "all-xamarin",
-            "labels": ["dependencies"]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Xamarin.*/"
+            ]
         },
         {
-            "matchPackagePatterns": ["^xunit.*"],
             "groupName": "all xunit dependencies",
             "groupSlug": "all-xunit",
-            "labels": ["dependencies"]
-        }]
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^xunit.*/"
+            ]
+        }
+    ]
 }
