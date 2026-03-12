@@ -144,6 +144,12 @@
             "labels": ["dependencies"]
         },
         {
+            "matchPackagePatterns": ["^Microsoft.TeamFoundation.*", "^Microsoft.VisualStudio.Services.*"],
+            "groupName": "all azure devops",
+            "groupSlug": "all-azure-devops",
+            "labels": ["dependencies"]
+        },
+        {
             "matchPackagePatterns": ["^Microsoft.SourceLink.*"],
             "groupName": "all sourcelink",
             "groupSlug": "all-sourcelink",
