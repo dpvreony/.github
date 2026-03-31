@@ -17,6 +17,16 @@
             ]
         },
         {
+            "groupName": "all aspire",
+            "groupSlug": "all-aspire",
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Aspire.*/"
+            ]
+        },
+        {
             "groupName": "all autorest dependencies",
             "groupSlug": "all-autorest",
             "labels": [
