@@ -98,6 +98,16 @@
             ]
         },
         {
+            "groupName": "all masstransit",
+            "groupSlug": "all-masstransit",
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^MassTransit./"
+            ]
+        },
+        {
             "groupName": "all mediatr dependencies",
             "groupSlug": "all-mediatr",
             "labels": [
