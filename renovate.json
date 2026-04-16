@@ -357,5 +357,8 @@
                 "/^xunit.*/"
             ]
         }
-    ]
+    ],
+    "vulnerabilityAlerts": {
+        "enabled": false
+    }
 }
