@@ -287,6 +287,17 @@
             ]
         },
         {
+            "groupName": "all msgraph",
+            "groupSlug": "all-msgraph",
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.Graph/"
+                "/^Microsoft.Graph.*/"
+            ]
+        },
+        {
             "groupName": "all sourcelink",
             "groupSlug": "all-sourcelink",
             "labels": [
