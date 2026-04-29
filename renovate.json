@@ -293,7 +293,7 @@
                 "dependencies"
             ],
             "matchPackageNames": [
-                "/^Microsoft.Graph/"
+                "/^Microsoft.Graph/",
                 "/^Microsoft.Graph.*/"
             ]
         },
