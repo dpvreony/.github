@@ -318,6 +318,16 @@
             ]
         },
         {
+            "groupName": "all sixlabors dependencies",
+            "groupSlug": "all-sixlabors-net",
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^SixLabors.*/"
+            ]
+        },
+        {
             "groupName": "all synxtixi dependencies",
             "groupSlug": "all-synxtixi",
             "labels": [
