@@ -377,6 +377,12 @@
             "matchPackageNames": [
                 "/^xunit.*/"
             ]
+        },
+        {
+          "description": "Never update exact NuGet pins like [1.2.3]",
+          "matchManagers": ["nuget"],
+          "matchCurrentValue": "/^\\[[^,\\]]+\\]$/",
+          "enabled": false
         }
     ],
     "vulnerabilityAlerts": {
