@@ -87,6 +87,17 @@
             ]
         },
         {
+            "groupName": "all gripe",
+            "groupSlug": "all-gripe",
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Gripe.*/",
+                "/^gripe-*/"
+            ]
+        },
+        {
             "groupName": "all llamasharp dependencies",
             "groupSlug": "all-llamasharp",
             "labels": [
