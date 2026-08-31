@@ -191,6 +191,16 @@
             ]
         },
         {
+            "groupName": "all pulumi",
+            "groupSlug": "all-pulumi",
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Pulumi.*/"
+            ]
+        },
+        {
             "groupName": "all system commandline",
             "groupSlug": "all-system-commandline",
             "labels": [
