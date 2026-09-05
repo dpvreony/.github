@@ -6,6 +6,7 @@
     "assigneesFromCodeOwners": true,
     "packageRules": [
         {
+            "matchDatasources": ["npm", "nuget"],
             "minimumReleaseAge": "3 days"
         },
         {
