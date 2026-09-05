@@ -6,6 +6,10 @@
     "assigneesFromCodeOwners": true,
     "packageRules": [
         {
+            "matchDatasources": ["npm", "nuget"],
+            "minimumReleaseAge": "3 days"
+        },
+        {
             "groupName": "all microsoft dependencies",
             "groupSlug": "all-microsoft",
             "labels": [
