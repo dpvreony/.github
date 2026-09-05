@@ -6,6 +6,9 @@
     "assigneesFromCodeOwners": true,
     "packageRules": [
         {
+            "minimumReleaseAge": "3 days"
+        },
+        {
             "groupName": "all microsoft dependencies",
             "groupSlug": "all-microsoft",
             "labels": [
