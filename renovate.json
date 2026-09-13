@@ -144,6 +144,17 @@
             ]
         },
         {
+            "groupName": "all msbuild",
+            "groupSlug": "all-msbuild",
+            "labels": [
+                "dependencies"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft.Build.*/",
+                "Microsoft\.NET\.StringTools"
+            ]
+        },
+        {
             "groupName": "all msidentity",
             "groupSlug": "all-msidentity",
             "labels": [
